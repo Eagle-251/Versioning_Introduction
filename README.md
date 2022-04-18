@@ -110,6 +110,6 @@ There are two main scopes that a configuration can apply in:
 This workflow is based on a [Feature Branch Workflow](https://www.atlassian.com/git/tutorials/comparing-workflows/feature-branch-workflow). This is a workflow that maintains a protected main/master branch and a separate branch for each "feature". This workflow also heavily utilises pull requests to merge code from branches back into the main branch. This gives a very convenient point to discuss and/or fix code before push to the main branch. This aspect works best in partnership when used with issues where the branches, and later pull requests, stem from a single issue.
 Furthermore this workflow is particularly useful when utilising CI/CD pipelines. For example the protected nature of the main branch (along with reviews happening before any writing to the main branch) means that (ideally) the main branch should only contain "non-broken" code. Creating a CD pipeline where a release gets published on each is good use of this workflow.  
 <br>
-For example:
+For example, this workflow can be represented as below ([source](https://victoria.dev/blog/git-branching-for-small-teams/)):
 
 ![Example Workflow](https://victoria.dev/blog/git-branching-for-small-teams/cover.png)
